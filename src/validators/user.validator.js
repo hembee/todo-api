@@ -23,3 +23,4 @@ export const loginUserValidator = Joi.object({
   password: Joi.string().required()
 }).strict()
 
+
